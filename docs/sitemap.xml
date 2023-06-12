@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://example.com/projects/firstproject/</loc>
+		<lastmod>2018-05-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/secondproject/</loc>
+		<lastmod>2018-07-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/machineproject/</loc>
+		<lastmod>2018-08-24</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/fourthproject/</loc>
+		<lastmod>2018-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/fifthproject/</loc>
+		<lastmod>2023-01-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/about/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/second-tag/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/posts-with-two-tags/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/markdown/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/number-2/</loc>
+		<lastmod>2023-04-19</lastmod>
+	</url>
+</urlset>

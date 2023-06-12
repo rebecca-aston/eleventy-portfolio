@@ -1,0 +1,21 @@
+{%- css %}.projectlist { counter-reset: start-from {{ (projectlistCounter or projectlist.length) + 1 }} }{% endcss %}
+<div class="projects">
+	 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+		{% for project in projectlist | reverse %}
+			<div class="col projectlist-item{% if project.url == url %} projectlist-item-active{% endif %}">
+				<a href="{{ project.url }}" class="projectlist-link">
+
+					{% if project.data.icon %}
+					{% set imgurl = "."+project.url + project.data.icon %}
+					{% image imgurl, "A possum parent and two possum kids hanging from the iconic red balloon" %}
+					{% endif %}
+
+					<h3>{% if project.data.title %}{{ project.data.title }}{% endif %}</h3>
+				</a>
+
+				{# Comment the line below out if you don't want the date showing #}
+				<time class="projectlist-date" datetime="{{ project.date | htmlDateString }}">{{ project.date | readableDate("LLLL yyyy") }}</time>
+			</div>
+		{% endfor %}
+	</div>
+</div>

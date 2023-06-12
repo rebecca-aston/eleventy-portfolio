@@ -1,0 +1,36 @@
+
+{%- css %}{% include "public/css/slider.css" %}{% endcss %}
+
+<div class="slider-container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+
+      {% for img in imagelist %}
+          
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{loop.index-1}}" class="active" aria-current="true" aria-label="Slide {{loop.index}}"></button>
+
+      {% endfor %}
+    
+    </div>
+    <div class="carousel-inner">
+
+      {% for img in imagelist %}
+          <div class="carousel-item {% if loop.index == 1 %}active{% endif %}">
+          {# <img src="..." class="d-block w-100" alt="..."> #}
+          {% set imgurl = "./"+img %}
+          {% image imgurl, "alt text", "d-block w-100", [316, 460, 768,960], "(min-width: 30em) 50vw, 100vw" %}
+
+          </div>
+      {% endfor %}
+    
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>

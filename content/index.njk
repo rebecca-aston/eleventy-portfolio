@@ -1,0 +1,33 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+numberOfLatestProjectsToShow: 4
+---
+
+
+<p> This is an art portfolio. </p>
+
+
+{% set projectsCount = collections.projects | length %}
+{% set latestProjectsCount = projectsCount | min(numberOfLatestProjectsToShow) %}
+<h1>Recent Projects</h1>
+
+{% set projectlist = collections.projects | head(-1 * numberOfLatestProjectsToShow) %}
+{% set projectlistCounter = projectsCount %}
+{% include "projectlist.njk" %}
+
+{% set moreProjects = projectsCount - numberOfLatestProjectsToShow %}
+{% if moreProjects > 0 %}
+<p>{{ moreProjects }} more project{% if moreProjects != 1 %}s{% endif %} can be seed in <a href="/projects/">my portfolio</a>.</p>
+{% endif %}
+
+{# List every content page in the project #}
+{#
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
+#}

@@ -1,0 +1,22 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - project
+    - projects
+    - tagList
+  addAllPagesToCollections: true
+layout: layouts/home.njk
+eleventyComputed:
+  title: Tagged “{{ tag }}”
+permalink: /tags/{{ tag | slugify }}/
+---
+<h1>Tagged “{{ tag }}”</h1>
+
+{% set projectlist = collections[ tag ] %}
+{% include "projectlist.njk" %}
+
+<p>See <a href="/tags/">all tags</a>.</p>

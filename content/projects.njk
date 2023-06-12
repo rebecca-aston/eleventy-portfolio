@@ -1,0 +1,10 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Portfolio
+  order: 2
+---
+<h1>Portfolio</h1>
+
+{% set projectlist = collections.projects %}
+{% include "projectlist.njk" %}

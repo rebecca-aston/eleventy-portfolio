@@ -1,0 +1,17 @@
+{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+{# Read more about Bootstrap navbar: https://getbootstrap.com/docs/5.0/components/navbar/  #}
+{# Read more about Bootstrap navs: https://getbootstrap.com/docs/5.0/components/navs/ #}
+<nav class="navbar fixed-top navbar-light bg-light navbar-expand-md">
+    <h2 class="visually-hidden">Top level navigation menu</h2>
+    <a href="/" class="navbar-brand">{{ metadata.title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+            {%- for entry in collections.all | eleventyNavigation %}
+                <li class="nav-item"><a href="{{ entry.url }}" class="nav-link active" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a></li>
+            {%- endfor %}
+        </ul>
+    </div>
+</nav>

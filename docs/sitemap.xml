@@ -2,67 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://example.com/projects/firstproject/</loc>
+		<loc>https://example.com/eleventy-portfolio/projects/firstproject/</loc>
 		<lastmod>2018-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/projects/secondproject/</loc>
+		<loc>https://example.com/eleventy-portfolio/projects/secondproject/</loc>
 		<lastmod>2018-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/projects/machineproject/</loc>
+		<loc>https://example.com/eleventy-portfolio/projects/machineproject/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/projects/fourthproject/</loc>
+		<loc>https://example.com/eleventy-portfolio/projects/fourthproject/</loc>
 		<lastmod>2018-09-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/projects/fifthproject/</loc>
-		<lastmod>2023-01-23</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/about/</loc>
+		<loc>https://example.com/eleventy-portfolio/about/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/</loc>
+		<loc>https://example.com/eleventy-portfolio/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/projects/</loc>
+		<loc>https://example.com/eleventy-portfolio/projects/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/</loc>
+		<loc>https://example.com/eleventy-portfolio/tags/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/second-tag/</loc>
+		<loc>https://example.com/eleventy-portfolio/tags/markdown/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/posts-with-two-tags/</loc>
+		<loc>https://example.com/eleventy-portfolio/tags/second-tag/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/markdown/</loc>
+		<loc>https://example.com/eleventy-portfolio/tags/posts-with-two-tags/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/number-2/</loc>
+		<loc>https://example.com/eleventy-portfolio/tags/number-2/</loc>
 		<lastmod>2023-04-19</lastmod>
 	</url>
 </urlset>

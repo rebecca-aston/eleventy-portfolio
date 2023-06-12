@@ -14,7 +14,7 @@ tags:
 
 ## Section Header
 
-I can just write in Markdown if I feel like it. I can include links, read some more about Markdown syntax [here]().
+I can just write in Markdown if I feel like it. I can include links, read some more about Markdown syntax [here](https://www.markdownguide.org/).
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nulla leo. Praesent vitae ligula lacinia, viverra sapien eget, pharetra ipsum. In dignissim bibendum diam, sit amet malesuada metus rhoncus ac. Fusce posuere aliquet lectus vel gravida. Proin ipsum lectus, interdum nec tincidunt nec, cursus vitae massa. Sed pulvinar lorem viverra, hendrerit lacus vestibulum, placerat enim. Vivamus ac dui pellentesque, facilisis felis eu, mattis dui. Sed quis porta ipsum. Integer sed pellentesque nibh.
 
